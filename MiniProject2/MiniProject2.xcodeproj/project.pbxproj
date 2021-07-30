@@ -18,6 +18,10 @@
 		8EDF07E926B3230C00F34548 /* MiniProject2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF07E826B3230C00F34548 /* MiniProject2UITests.swift */; };
 		8EDF07F726B3249600F34548 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF07F626B3249600F34548 /* SecondViewController.swift */; };
 		8EDF07F926B324B600F34548 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF07F826B324B600F34548 /* ThirdViewController.swift */; };
+		8EDF07FB26B330B900F34548 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF07FA26B330B900F34548 /* FourthViewController.swift */; };
+		8EDF07FD26B330D600F34548 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF07FC26B330D600F34548 /* FifthViewController.swift */; };
+		8EDF07FF26B330F300F34548 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF07FE26B330F300F34548 /* SixthViewController.swift */; };
+		8EDF080126B3310B00F34548 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF080026B3310B00F34548 /* SeventhViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		8EDF07EA26B3230C00F34548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EDF07F626B3249600F34548 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8EDF07F826B324B600F34548 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		8EDF07FA26B330B900F34548 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		8EDF07FC26B330D600F34548 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		8EDF07FE26B330F300F34548 /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		8EDF080026B3310B00F34548 /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,10 @@
 		8EDF07B726B3230B00F34548 = {
 			isa = PBXGroup;
 			children = (
+				8EDF080026B3310B00F34548 /* SeventhViewController.swift */,
+				8EDF07FE26B330F300F34548 /* SixthViewController.swift */,
+				8EDF07FC26B330D600F34548 /* FifthViewController.swift */,
+				8EDF07FA26B330B900F34548 /* FourthViewController.swift */,
 				8EDF07C226B3230B00F34548 /* MiniProject2 */,
 				8EDF07DC26B3230C00F34548 /* MiniProject2Tests */,
 				8EDF07E726B3230C00F34548 /* MiniProject2UITests */,
@@ -268,8 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EDF07C826B3230B00F34548 /* ViewController.swift in Sources */,
+				8EDF07FF26B330F300F34548 /* SixthViewController.swift in Sources */,
 				8EDF07C426B3230B00F34548 /* AppDelegate.swift in Sources */,
 				8EDF07C626B3230B00F34548 /* SceneDelegate.swift in Sources */,
+				8EDF080126B3310B00F34548 /* SeventhViewController.swift in Sources */,
+				8EDF07FB26B330B900F34548 /* FourthViewController.swift in Sources */,
+				8EDF07FD26B330D600F34548 /* FifthViewController.swift in Sources */,
 				8EDF07F726B3249600F34548 /* SecondViewController.swift in Sources */,
 				8EDF07F926B324B600F34548 /* ThirdViewController.swift in Sources */,
 				8EDF07CE26B3230B00F34548 /* MiniProject2.xcdatamodeld in Sources */,

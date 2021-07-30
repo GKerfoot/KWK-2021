@@ -9,13 +9,38 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+   
+    @IBAction func ChoiceA(_ sender: Any) {
+        Label3.text="Incorrect! Try again before moving on!"
+    }
+    
+    @IBAction func ChoiceB(_ sender: Any) {
+        Label3.text="Incorrect! Try again before moving on!"
+    }
+    
+    
+    @IBAction func ChoiceC(_ sender: Any) {
+        Label3.text="Incorrect! Try again before moving on!"
+    }
+    
+    
+    @IBAction func ChoiceD(_ sender: Any) {
+        Label3.text="Correct! Nice job!"
+    }
+    
+    @IBOutlet weak var Label3: UILabel!
+    
+    
+    @IBOutlet weak var Label1: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
     
-
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
@@ -26,4 +51,5 @@ class ThirdViewController: UIViewController {
     }
     */
 
+}
 }
